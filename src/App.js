@@ -1,5 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
+import Cycle from './components/Cycle';
+import State from './components/State';
 import Sum from './components/Sum';
 
 function App() {
@@ -13,12 +15,14 @@ function App() {
 
       {/* 2nd question */}
 
-      {/* 3rd question */}
+      <Cycle/>
 
-      {/* useReducer method (4th) */}
+      {/* 3rd question */}
+      <State/>
+
+      {/* useReducer method (4th question) */}
       <Counter/>     
      
-      
     </div>
   );
 }

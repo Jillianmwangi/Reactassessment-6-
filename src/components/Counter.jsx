@@ -23,7 +23,7 @@ function Counter() {
         onMouseOver={() => dispatch({ type: 'handleIncrement' })}
         onClick={() => dispatch({ type: 'handleDecreament' })}
       >
-        Hover on me to increment count, click text to decrement count.
+        Hover on me to increment count, <br /> Click text to decrement count.
       </p>
       <button className='resetBtn' onClick={() => dispatch({ type: 'handleReset' })}>Reset</button>
       <p>Count: {state.count}</p>

@@ -5,7 +5,7 @@ body{
     margin: 10px;
     padding: 20px;
 }
-.cycleSection{
+.stateHolder{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -17,15 +17,4 @@ body{
     border-radius: 15px;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    gap: 10px;
-}
-.cycleBtn{
-    border-radius: 30px;
-    width: 150px;
-    border-style: none;
-    background-color: aquamarine;
-}
-.cycleBtn:hover{
-    cursor: pointer;
-    border-style: 0.8px solid black; 
 }
