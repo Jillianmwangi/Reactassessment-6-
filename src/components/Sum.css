@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 226, 43);
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 150px;
+    gap: 10px;
+}
+.sumBtn{
+    border-radius: 30px;
+    width: 150px;
+    border-style: none;
+    background-color: aquamarine;
+}
+.sumBtn:hover{
+    cursor: pointer;
+    border-style: 0.8px solid black; 
+}
